@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hook", "IAT Hooking\IAT Hooking.vcproj", "{87960E8A-F6C3-4DFE-91E2-15B869FAFBCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IAT Test", "IAT Test\IAT Test.vcproj", "{856566C4-B5D7-4859-8D80-C5DF3ABB9350}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87960E8A-F6C3-4DFE-91E2-15B869FAFBCD} = {87960E8A-F6C3-4DFE-91E2-15B869FAFBCD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87960E8A-F6C3-4DFE-91E2-15B869FAFBCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87960E8A-F6C3-4DFE-91E2-15B869FAFBCD}.Debug|Win32.Build.0 = Debug|Win32
+		{87960E8A-F6C3-4DFE-91E2-15B869FAFBCD}.Release|Win32.ActiveCfg = Release|Win32
+		{87960E8A-F6C3-4DFE-91E2-15B869FAFBCD}.Release|Win32.Build.0 = Release|Win32
+		{856566C4-B5D7-4859-8D80-C5DF3ABB9350}.Debug|Win32.ActiveCfg = Debug|Win32
+		{856566C4-B5D7-4859-8D80-C5DF3ABB9350}.Debug|Win32.Build.0 = Debug|Win32
+		{856566C4-B5D7-4859-8D80-C5DF3ABB9350}.Release|Win32.ActiveCfg = Release|Win32
+		{856566C4-B5D7-4859-8D80-C5DF3ABB9350}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
